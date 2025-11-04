@@ -1,4 +1,8 @@
 package com.example.appnombre_chaya.data.model
 
-class Post {
-}
+data class Post (
+    val userId: Int,
+    val id: Int,
+    val tittle: String,
+    val body: String
+)
